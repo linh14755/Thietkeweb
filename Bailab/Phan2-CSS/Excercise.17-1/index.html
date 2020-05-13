@@ -32,21 +32,27 @@ a {
   text-shadow: #666 .1em .1em .1em;
   box-shadow: 0 5px 3px rgba(0,0,0,.5);
   position: relative;
-}
-a{
-    transition: background-color 0.2s, border-color 0.2s
+  /*transition: background-color 0.2s, border-color 0.2s,top .2s, box-shadow 0.2s;
   -webkit-transition: background-color 0.2s, border-color 0.2s
+*/}
 
-}
-
-a:hover, a:focus{
+a:hover{
     background-color: #fdca00;
     border-color: #fda700;
+    transform: scale(1.2);
 }
 a:active{
     top: 3px;
     box-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
+.username:focus
+{
+border:1px solid #808451;
+-moz-box-shadow:0 0 8px #808451;
+-webkit-box-shadow:0 0 15px #808451;
+box-shadow:0 0 15px #808451;
+}
+
 
 </style>
 
@@ -60,6 +66,7 @@ a:active{
   <li><a href="">Women</a></li>
   <li><a href="">Kids</a></li>
   <li><a href="">SALE</a></li>
+  <input type="text" value="Click vào đây" class="username" />
 </ul>
 
 </body>
