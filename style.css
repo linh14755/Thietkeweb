@@ -7,10 +7,11 @@
     
 }
 body{
-    background: url(anh.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(anh.jpg) no-repeat; */
+    background: #576574
+    /* background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100%; */
     
 }
 a{
